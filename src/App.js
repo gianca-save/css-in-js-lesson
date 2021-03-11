@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+import Title from './components/Title';
+import VariedEventuali from './components/VariedEventuali';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Title page_title='Un primo, modesto tentativo...' description='Chiamiamolo il mio primo programma di CSS in JS...' />
+      <VariedEventuali stuff='Ciao' double_stuff='ti saluto' />
     </div>
   );
 }
